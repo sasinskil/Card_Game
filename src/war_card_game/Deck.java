@@ -17,14 +17,14 @@ public class Deck
  
     public ArrayList<Card> createDeck()
     {
-        //ArrayList<Card> talia=null;
+        //ArrayList<Card> decK=null;
         for(Suit s: Suit.values())
             for(Value v: Value.values())
             {
-                //talia.add(new Card(s, v));
+                //decK.add(new Card(s, v));
                 this.deck.add(new Card(s, v));
             }
-        //return talia;
+        //return decK;
         return deck;
     
     }
@@ -76,10 +76,10 @@ public class Deck
     
     public int deckSize()
     {
-        int talia;
-        talia = this.deck.size();
+        int size;
+        size = this.deck.size();
         
-        return talia;
+        return size;
     }
     
     @Override
