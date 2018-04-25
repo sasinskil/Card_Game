@@ -24,8 +24,7 @@ public class Main
         
         
         p1.game(p2);
-        
-        
+               
     }
     
 }

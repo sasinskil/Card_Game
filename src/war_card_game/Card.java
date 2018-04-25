@@ -35,13 +35,13 @@ public class Card
         
         switch(suit)
         {
-            case WALET:
+            case JESTER:
                 value=5 + val;
                 break;
-            case DAMA:
+            case QUEEN:
                 value=10 + val;
                 break;
-            case KROL:
+            case KING:
                 value=15 + val;
                 break;
             case ASS:

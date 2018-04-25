@@ -31,7 +31,7 @@ public class Deck
     
     public ArrayList<Card> draw5cards()
     {
-        ArrayList<Card> dobrane = new ArrayList<>();
+        ArrayList<Card> drawn = new ArrayList<>();
         
         Card card1 = this.deck.get(0);
         Card card2 = this.deck.get(1);
@@ -39,11 +39,11 @@ public class Deck
         Card card4 = this.deck.get(3);
         Card card5 = this.deck.get(4);
         
-        dobrane.add(card1);
-        dobrane.add(card2);
-        dobrane.add(card3);
-        dobrane.add(card4);
-        dobrane.add(card5);
+        drawn.add(card1);
+        drawn.add(card2);
+        drawn.add(card3);
+        drawn.add(card4);
+        drawn.add(card5);
         
         this.deck.remove(0);
         this.deck.remove(1);
@@ -51,13 +51,13 @@ public class Deck
         this.deck.remove(3);
         this.deck.remove(4);
         
-//        for(Card c : dobrane)
+//        for(Card c : drawn)
 //        {
 //            System.out.print(c);
 //        }
 //        System.out.println();
         
-        return dobrane;   
+        return drawn;   
     }
     public Card draw1card()
     {

@@ -3,7 +3,7 @@ package war_card_game;
 
 public enum Suit
 {
-    WALET("W"),DAMA("D"),KROL("K"),ASS("A");
+    JESTER("W"),QUEEN("D"),KING("K"),ASS("A");
     
     String truename;
     
